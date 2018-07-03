@@ -1,0 +1,8 @@
+CREATE TABLE t_user(
+  id VARCHAR(32) NOT NULL PRIMARY KEY ,
+  username VARCHAR(64) NOT NULL ,
+  password VARCHAR(64) NOT NULL ,
+  salt VARCHAR(32) NOT NULL ,
+  headUrl VARCHAR(64),
+  role VARCHAR(32)
+);
